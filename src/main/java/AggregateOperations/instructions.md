@@ -1,4 +1,6 @@
-Java 8 has introduced a sexy new Stream API which makes it possible to solve some data related problems in just a few lines of code. Let's try it out!
+Java 8 has introduced a sexy new Stream API which makes it possible
+to solve some data related problems in just a few lines of code. 
+Let's try it out!
 
 You have a Student class (see the class declaration below).
 
@@ -13,17 +15,17 @@ Have Fun!
 Student class declaration:
 
 public class Student {
-private String name;
-private double grade;
-private String department;
-private Gender gender;
-
+    private String name;
+    private double grade;
+    private String department;
+    private Gender gender;
+    
     public static final double PASSING_GRADE = 70.0;
-
+    
     public enum Gender {
-        MALE, FEMALE
-    }
-
+            MALE, FEMALE
+        }
+    
     public Student(String name, double grade, String department, Gender gender) {
         this.name = name;
         this.grade = grade;
